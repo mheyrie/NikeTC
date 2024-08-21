@@ -7,10 +7,13 @@ import SpecialOffers from "./SpecialOffers";
 import Subscribe from "./Subscribe";
 import SuperQuality from "./SuperQuality";
 
-
-const Home = () => (
-    <>
-    </>
-);
-
-export default Home;
+export {
+  CustomerReviews,
+  Hero,
+  PopularProduct,
+  Footer,
+  Services,
+  SpecialOffers,
+  Subscribe,
+  SuperQuality
+};
