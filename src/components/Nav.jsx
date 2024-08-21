@@ -33,7 +33,7 @@ const Nav = () => {
         <div>
           {/* <div className="hidden max-lag:block"> */}
           <button
-            id="menu-btn"
+            // id="menu-btn"
             onClick={handleHamburger}
             className={`block hamburger lg:hidden ${open ? "open" : ""}`}
           >
@@ -44,8 +44,8 @@ const Nav = () => {
         </div>
       </nav>
       {open ? (
-        <div className="bg-red-300">
-            <ul className="flex flex-col my-10 justify-start space-y-6 font-bold left-2 right-2">
+        <div className="">
+            <ul className="flex flex-col my-10 justify-center items-center space-y-6 font-bold bg-red-100">
               {navLinks.map((item) => (
                 <li key={item.label}>
                   <a
