@@ -1,6 +1,7 @@
 import Button from "../components/Button";
 import {arrowRight} from '../assets/icons'
 import { statistics } from "../constants";
+import { bigShoe1 } from "../assets/images";
 
 const Hero = () => {
   return (
@@ -25,6 +26,9 @@ const Hero = () => {
             </div>
           ))}
         </div>
+      </div>
+      <div>
+        <img src={bigShoe1} alt="Shoe Collection" width={600} height={500} className="object-contain z-10 relative" />
       </div>
     </section>
   );
