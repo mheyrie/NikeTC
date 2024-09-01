@@ -16,6 +16,7 @@ const Hero = () => {
         </h1>
         <p>Discover stylish Nike Shoes arrival, quality comfort and innovation that suits whatever lifestyle you have</p>
         <Button label={"Shop Now"} iconURL={arrowRight}/>
+        <div className="flex justify-start items-start flex-wrap w-full mt-20 gap-16"></div>
       </div>
     </section>
   );
