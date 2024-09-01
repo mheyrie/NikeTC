@@ -1,8 +1,8 @@
 import React from 'react'
 
-const ShoeCard = () => {
+const ShoeCard = ({imgURL, changeBigShoeImage, bigShoeImg}) => {
   return (
-    <div>ShoeCard</div>
+    <div className="rounded-xl border-2 ">ShoeCard</div>
   )
 }
 
