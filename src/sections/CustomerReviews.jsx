@@ -1,3 +1,4 @@
+import ReviewCard from "../components/ReviewCard"
 import { reviews } from "../constants"
 
 const CustomerReviews = () => {
@@ -8,7 +9,7 @@ const CustomerReviews = () => {
       <p className="info-text max-w-lg text-center m-auto mt-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque earum suscipit molestiae optio vitae ut magnam dolorem.</p>
       <div className="mt-24 flex flex-1 justify-evenly items-center max-lg:lex-col gap-14">
         {reviews.map((review, index)=>(
-          <ReviewCard/>
+          <ReviewCard key={index} review={review} imgURL={review.imgURL}customerName={review.customerName} rating={review.rating} feedback={review.feedback} />
         ))}
       </div>
     </section>
