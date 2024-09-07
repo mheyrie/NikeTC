@@ -1,46 +1,17 @@
 import Nav from "./components/Nav";
-import { CustomerReviews,
-  Hero,
-  PopularProduct,
-  Footer,
-  Services,
-  SpecialOffers,
-  Subscribe,
-  SuperQuality } from './sections';
+import Homes from "./pages/Homescreen/Homes";
 
-  import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-
-
-
+import { BrowserRouter as Routes, Route } from "react-router-dom";
 
 const App = () => (
-  <main className="relative">
+
+  <Route>
+    <main className="relative">
     <Nav />
-    <section className="xl:padding-l wide:padding-r padding-b">
-      <Hero />
-    </section>
-    <section className="padding">
-      <PopularProduct />
-    </section>
-    <section className="padding">
-      <SuperQuality />
-    </section>
-    <section className="padding-x py-10">
-      <Services />
-    </section>
-    <section className="padding">
-      <SpecialOffers />
-    </section>
-    <section className="padding bg-pale-blue">
-      <CustomerReviews />
-    </section>
-    <section className="padding-x sm:py-32 py-16 w-full">
-      <Subscribe />
-    </section>
-    <section className="padding-x padding-t pb-8 bg-black">
-      <Footer />
-    </section>
+    <Homes/>
   </main>
+  </Route>
+  
 );
 
 export default App;
