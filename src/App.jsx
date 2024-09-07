@@ -1,17 +1,17 @@
 import Nav from "./components/Nav";
 import Homes from "./pages/Homescreen/Homes";
 
-import { BrowserRouter as Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 const App = () => (
-
-  <Route>
+  <Router>
     <main className="relative">
-    <Nav />
-    <Homes/>
-  </main>
-  </Route>
-  
+      <Nav />
+      <Routes>
+        <Route path="/" element={<Homes />} />
+      </Routes>
+    </main>
+  </Router>
 );
 
 export default App;
