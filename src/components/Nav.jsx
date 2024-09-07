@@ -12,7 +12,8 @@ const Nav = () => {
     setOpen(false);
   };
   return (
-    <header className="padding-x py-8 z-10 absolute w-full">
+    <header className="padding-x py-8 z-10 fixed bg-white w-full">
+    {/* <header className="padding-x py-8 z-10 absolute w-full"> */}
       <nav className="flex justify-between items-center max-container">
         <a href="/">
           <img src={headerLogo} alt="Logo" width={130} height={29} />
