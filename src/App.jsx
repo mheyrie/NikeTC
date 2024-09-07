@@ -8,7 +8,7 @@ import { CustomerReviews,
   Subscribe,
   SuperQuality } from './sections';
 
-  import { BrowserRouter } from "react-router-dom";
+  import { BrowserRouter as } from "react-router-dom";
 
 
 
