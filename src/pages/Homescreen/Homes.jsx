@@ -1,11 +1,13 @@
-import { CustomerReviews,
-    Hero,
-    PopularProduct,
-    Footer,
-    Services,
-    SpecialOffers,
-    Subscribe,
-    SuperQuality } from '../../sections';
+import {
+  CustomerReviews,
+  Hero,
+  PopularProduct,
+  Footer,
+  Services,
+  SpecialOffers,
+  Subscribe,
+  SuperQuality,
+} from "../../sections";
 
 const Homes = () => {
   return (
