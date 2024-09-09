@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { headerLogo } from "../assets/images";
 import { navLinks } from "../constants";
+import { Link } from "react-router-dom";
 
 const Nav = () => {
   const [open, setOpen] = useState(false);
@@ -36,12 +37,11 @@ const Nav = () => {
             </a>
           </li>
           <li>
-            <a
-              href="#products"
+            <Link to="/products"
               className="font-montserrat leading-normal text-lg text-slate-gray"
             >
               Products
-            </a>
+            </Link>
           </li>
           <li>
             <a
