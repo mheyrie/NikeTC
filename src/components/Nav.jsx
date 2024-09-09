@@ -45,7 +45,7 @@ const Nav = () => {
           </li>
           <li>
             <a
-              href="#home"
+              href="#contact-us"
               className="font-montserrat leading-normal text-lg text-slate-gray"
             >
               Contact Us
