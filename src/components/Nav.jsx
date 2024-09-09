@@ -22,7 +22,7 @@ const Nav = () => {
         <ul className="flex-1 flex justify-center item-center gap-16 max-lg:hidden">
           <li>
             <a
-              href="#home"
+              href="/"
               className="font-montserrat leading-normal text-lg text-slate-gray"
             >
               Home
@@ -38,7 +38,7 @@ const Nav = () => {
           </li>
           <li>
             <Link to="/products"
-              // className="font-montserrat leading-normal text-lg text-slate-gray"
+              className="font-montserrat leading-normal text-lg text-slate-gray"
             >
               Products
             </Link>
