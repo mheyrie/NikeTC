@@ -24,7 +24,31 @@ const Nav = () => {
               href="#home"
               className="font-montserrat leading-normal text-lg text-slate-gray"
             >
-            Home
+              Home
+            </a>
+          </li>
+          <li>
+            <a
+              href="#about-us"
+              className="font-montserrat leading-normal text-lg text-slate-gray"
+            >
+              About Us
+            </a>
+          </li>
+          <li>
+            <a
+              href="#home"
+              className="font-montserrat leading-normal text-lg text-slate-gray"
+            >
+              Home
+            </a>
+          </li>
+          <li>
+            <a
+              href="#home"
+              className="font-montserrat leading-normal text-lg text-slate-gray"
+            >
+              Home
             </a>
           </li>
         </ul>
