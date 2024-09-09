@@ -13,22 +13,20 @@ const Nav = () => {
   };
   return (
     <header className="padding-x py-8 z-10 fixed bg-white w-full">
-    {/* <header className="padding-x py-8 z-10 absolute w-full"> */}
+      {/* <header className="padding-x py-8 z-10 absolute w-full"> */}
       <nav className="flex justify-between items-center max-container">
         <a href="/">
           <img src={headerLogo} alt="Logo" width={130} height={29} />
         </a>
         <ul className="flex-1 flex justify-center item-center gap-16 max-lg:hidden">
-          {navLinks.map((item) => (
-            <li key={item.label}>
-              <a
-                href={item.href}
-                className="font-montserrat leading-normal text-lg text-slate-gray"
-              >
-                {item.label}
-              </a>
-            </li>
-          ))}
+          <li>
+            <a
+              href="#home"
+              className="font-montserrat leading-normal text-lg text-slate-gray"
+            >
+            Home
+            </a>
+          </li>
         </ul>
         {/* Hamburger Icon  */}
         <div>
@@ -46,19 +44,19 @@ const Nav = () => {
       </nav>
       {open ? (
         <div className="">
-            <ul className="flex flex-col my-10 justify-center items-center space-y-6 font-bold bg-red-100 w-full">
-              {navLinks.map((item) => (
-                <li key={item.label}>
-                  <a
-                    href={item.href}
-                    className="font-montserrat leading-normal text-lg text-slate-gray"
-                    onClick={handleNavLinkClick}
-                  >
-                    {item.label}
-                  </a>
-                </li>
-              ))}
-            </ul>
+          <ul className="flex flex-col my-10 justify-center items-center space-y-6 font-bold bg-red-100 w-full">
+            {navLinks.map((item) => (
+              <li key={item.label}>
+                <a
+                  href={item.href}
+                  className="font-montserrat leading-normal text-lg text-slate-gray"
+                  onClick={handleNavLinkClick}
+                >
+                  {item.label}
+                </a>
+              </li>
+            ))}
+          </ul>
         </div>
       ) : (
         ""
