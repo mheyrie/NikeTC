@@ -48,7 +48,7 @@ const Nav = () => {
               href="#home"
               className="font-montserrat leading-normal text-lg text-slate-gray"
             >
-              Home
+              Contact Us
             </a>
           </li>
         </ul>
