@@ -40,7 +40,7 @@ const Nav = () => {
               href="#products"
               className="font-montserrat leading-normal text-lg text-slate-gray"
             >
-              Home
+              Products
             </a>
           </li>
           <li>
