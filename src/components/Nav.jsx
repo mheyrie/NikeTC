@@ -38,7 +38,7 @@ const Nav = () => {
           </li>
           <li>
             <Link to="/products"
-              className="font-montserrat leading-normal text-lg text-slate-gray"
+              // className="font-montserrat leading-normal text-lg text-slate-gray"
             >
               Products
             </Link>

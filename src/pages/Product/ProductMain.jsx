@@ -2,7 +2,7 @@ import React from 'react'
 
 const ProductMain = () => {
   return (
-    <div>ProductMain</div>
+    <div className="text-red-600">ProductMain</div>
   )
 }
 
