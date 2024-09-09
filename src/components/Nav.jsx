@@ -67,8 +67,8 @@ const Nav = () => {
         </div>
       </nav>
       {open ? (
-        <div className="">
-          <ul className="flex flex-col my-10 justify-center items-center space-y-6 font-bold bg-red-100 w-full">
+        <div className="relative">
+          <ul className="flex flex-col my-10 justify-center items-center space-y-6 font-bold bg-red-100 w-full z-50 absolute">
             {navLinks.map((item) => (
               <li key={item.label}>
                 <a
