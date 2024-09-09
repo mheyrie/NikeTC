@@ -37,7 +37,7 @@ const Nav = () => {
           </li>
           <li>
             <a
-              href="#home"
+              href="#products"
               className="font-montserrat leading-normal text-lg text-slate-gray"
             >
               Home
