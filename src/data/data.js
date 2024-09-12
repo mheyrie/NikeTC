@@ -25,7 +25,7 @@ const data = [
     {
       img: "https://m.media-amazon.com/images/I/51+P9uAvb1L._AC_UY695_.jpg",
       title: "Nike Waffle One Sneaker",
-      star: <AiFillStar className="rating-star" />,
+      star: 2,
       reviews: "(123 reviews)",
       prevPrice: "$140,00",
       newPrice: "200",
