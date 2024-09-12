@@ -128,7 +128,7 @@ const data = [
     {
       img: "https://m.media-amazon.com/images/I/71jeoX0rMBL._AC_UX575_.jpg",
       title: "Unisex-Adult Super",
-      star: <AiFillStar className="rating-star" />,
+      star: 4,
       reviews: "(123 reviews)",
       prevPrice: "$140,00",
       newPrice: "150",
