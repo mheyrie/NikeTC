@@ -47,7 +47,7 @@ const data = [
     {
       img: "https://m.media-amazon.com/images/I/41M54ztS6IL._AC_SY625._SX._UX._SY._UY_.jpg",
       title: "Flat Slip On Pumps",
-      star: <AiFillStar className="rating-star" />,
+      star: 3.5,
       reviews: "(123 reviews)",
       prevPrice: "$140,00",
       newPrice: "200",
