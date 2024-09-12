@@ -94,7 +94,7 @@ const data = [
     {
       img: "https://m.media-amazon.com/images/I/61-cBsLhJHL._AC_UY695_.jpg",
       title: "Nike Men's Sneaker",
-      star: <AiFillStar className="rating-star" />,
+      star: 3,
       reviews: "(123 reviews)",
       prevPrice: "$140,00",
       newPrice: "200",
