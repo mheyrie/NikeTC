@@ -150,7 +150,7 @@ const data = [
     {
       img: "https://m.media-amazon.com/images/I/7128-af7joL._AC_UY575_.jpg",
       title: "Pacer Future Doubleknit",
-      star: <AiFillStar className="rating-star" />,
+      star: 4,
       reviews: "(123 reviews)",
       prevPrice: "$140,00",
       newPrice: "150",
