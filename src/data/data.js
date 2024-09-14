@@ -217,7 +217,7 @@ const data = [
     {
       img: "https://m.media-amazon.com/images/I/61bncQ44yML._AC_UX695_.jpg",
       title: "Chunky High Heel",
-      star: <AiFillStar className="rating-star" />,
+      star: 4,
       reviews: "(123 reviews)",
       prevPrice: "$140,00",
       newPrice: "50",
