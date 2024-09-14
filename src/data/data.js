@@ -162,7 +162,7 @@ const data = [
     {
       img: "https://m.media-amazon.com/images/I/81xXDjojYKS._AC_UX575_.jpg",
       title: "Fusion Evo Golf Shoe",
-      star: <AiFillStar className="rating-star" />,
+      star: 3,
       reviews: "(123 reviews)",
       prevPrice: "$140,00",
       newPrice: "100",
