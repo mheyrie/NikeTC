@@ -173,7 +173,7 @@ const data = [
     {
       img: "https://m.media-amazon.com/images/I/719gdz8lsTS._AC_UX575_.jpg",
       title: "Rainbow Chex Skate",
-      star: <AiFillStar className="rating-star" />,
+      star: 4,
       reviews: "(123 reviews)",
       prevPrice: "$140,00",
       newPrice: "100",
