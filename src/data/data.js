@@ -206,7 +206,7 @@ const data = [
     {
       img: "https://m.media-amazon.com/images/I/61N4GyWcHPL._AC_UY575_.jpg",
       title: "Classic Bandana Sneakers",
-      star: <AiFillStar className="rating-star" />,
+      star: 5,
       reviews: "(123 reviews)",
       prevPrice: "$140,00",
       newPrice: "50",
