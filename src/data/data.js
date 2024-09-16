@@ -37,6 +37,7 @@ const data = [
       category: "sneakers",
     },
     {
+      id:4,
       img: "https://m.media-amazon.com/images/I/71oEKkghg-L._AC_UX575_.jpg",
       title: "Nike Running Shoe",
       star: 5,
