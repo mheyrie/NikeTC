@@ -284,7 +284,7 @@ const data = [
     {
       img: "https://m.media-amazon.com/images/I/71h5+MbEK7L._AC_UY625_.jpg",
       title: "Amore Fashion Stilettos",
-      star: <AiFillStar className="rating-star" />,
+      star: 5,
       reviews: "(123 reviews)",
       prevPrice: "$140,00",
       newPrice: "150",
