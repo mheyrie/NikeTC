@@ -295,7 +295,7 @@ const data = [
     {
       img: "https://m.media-amazon.com/images/I/61uw5RDxKQL._AC_UY625_.jpg",
       title: "Bridal Sandals Glitter",
-      star: <AiFillStar className="rating-star" />,
+      star: 3,
       reviews: "(123 reviews)",
       prevPrice: "$140,00",
       newPrice: "50",
