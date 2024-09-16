@@ -12,6 +12,7 @@ const data = [
       category: "sneakers",
     },
     {
+      id:2,
       img: "https://m.media-amazon.com/images/I/519MRhRKGFL._AC_UX575_.jpg",
       title: "Nike Air Vapormax Plus",
       star: 5,
