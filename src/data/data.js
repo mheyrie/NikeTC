@@ -49,6 +49,7 @@ const data = [
       category: "sneakers",
     },
     {
+      id: 5,
       img: "https://m.media-amazon.com/images/I/41M54ztS6IL._AC_SY625._SX._UX._SY._UY_.jpg",
       title: "Flat Slip On Pumps",
       star: 3.5,
