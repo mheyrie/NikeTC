@@ -262,7 +262,7 @@ const data = [
     {
       img: "https://m.media-amazon.com/images/I/51PGWTXgf-L._AC_UY625_.jpg",
       title: "Low Mid Block Heels",
-      star: <AiFillStar className="rating-star" />,
+      star: 2,
       reviews: "(123 reviews)",
       prevPrice: "$140,00",
       newPrice: "200",
