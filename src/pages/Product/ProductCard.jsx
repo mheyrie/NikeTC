@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const ProductMainCard = () => {
+export const ProductCard = () => {
   return (
     <div>ProductMainCard</div>
   )
