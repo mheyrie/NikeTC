@@ -1,5 +1,6 @@
 const data = [
     {
+      id: 1,
       img: "https://m.media-amazon.com/images/I/6125yAfsJKL._AC_UX575_.jpg",
       title: "Nike Air Monarch IV",
       star: 4,
