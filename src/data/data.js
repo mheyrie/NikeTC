@@ -306,7 +306,7 @@ const data = [
     {
       img: "https://m.media-amazon.com/images/I/71yhoZP0l6L._AC_UY695_.jpg",
       title: "Wedding Prom Bridal",
-      star: <AiFillStar className="rating-star" />,
+      star: 5,
       reviews: "(123 reviews)",
       prevPrice: "$140,00",
       newPrice: "50",
