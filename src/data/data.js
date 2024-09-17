@@ -125,6 +125,7 @@ const data = [
       category: "sneakers",
     },
     {
+      id: 11,
       img: "https://m.media-amazon.com/images/I/71E75yRwCDL._AC_UY575_.jpg",
       title: "Pacer Future Sneaker",
       star: 4,
