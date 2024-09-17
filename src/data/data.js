@@ -149,6 +149,7 @@ const data = [
       category: "sneakers",
     },
     {
+      id: 13,
       img: "https://m.media-amazon.com/images/I/61TM6Q9dvxL._AC_UX575_.jpg",
       title: "Roma Basic Sneaker",
       star: 5,
