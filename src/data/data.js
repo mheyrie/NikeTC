@@ -113,6 +113,7 @@ const data = [
     },
   
     {
+      id:10,
       img: "https://m.media-amazon.com/images/I/81xXDjojYKS._AC_UX575_.jpg",
       title: "PUMA BLACK-OCE",
       star: 5,
