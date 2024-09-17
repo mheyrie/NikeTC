@@ -100,6 +100,7 @@ const data = [
     },
   
     {
+      id: 9,
       img: "https://m.media-amazon.com/images/I/61-cBsLhJHL._AC_UY695_.jpg",
       title: "Nike Men's Sneaker",
       star: 3,
