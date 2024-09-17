@@ -161,6 +161,7 @@ const data = [
       category: "sneakers",
     },
     {
+      id: 14,
       img: "https://m.media-amazon.com/images/I/7128-af7joL._AC_UY575_.jpg",
       title: "Pacer Future Doubleknit",
       star: 4,
