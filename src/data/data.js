@@ -61,6 +61,7 @@ const data = [
       category: "flats",
     },
     {
+      id: 6,
       img: "https://m.media-amazon.com/images/I/71zKuNICJAL._AC_UX625_.jpg",
       title: "Knit Ballet Flat",
       star: 5,
