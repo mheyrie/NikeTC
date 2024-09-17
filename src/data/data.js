@@ -137,6 +137,7 @@ const data = [
       category: "sneakers",
     },
     {
+      id: 12,
       img: "https://m.media-amazon.com/images/I/71jeoX0rMBL._AC_UX575_.jpg",
       title: "Unisex-Adult Super",
       star: 4,
