@@ -87,6 +87,7 @@ const data = [
     },
   
     {
+      id: 8,
       img: "https://m.media-amazon.com/images/I/71VaQ+V6XnL._AC_UY695_.jpg",
       title: "Nike Zoom Freak",
       star: 4,
