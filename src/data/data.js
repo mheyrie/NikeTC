@@ -74,6 +74,7 @@ const data = [
     },
   
     {
+      id: 7,
       img: "https://m.media-amazon.com/images/I/61V9APfz97L._AC_UY695_.jpg",
       title: "Loafer Flats",
       star: 5,
