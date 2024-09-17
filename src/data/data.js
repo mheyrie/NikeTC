@@ -174,6 +174,7 @@ const data = [
     },
   
     {
+      id: 15,
       img: "https://m.media-amazon.com/images/I/81xXDjojYKS._AC_UX575_.jpg",
       title: "Fusion Evo Golf Shoe",
       star: 3,
