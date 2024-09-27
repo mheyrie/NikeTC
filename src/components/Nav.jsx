@@ -3,7 +3,7 @@ import { headerLogo } from "../assets/images";
 // import { navLinks } from "../constants";
 import { Link } from "react-router-dom";
 
-const Nav = () => {
+const Nav = ({ colorTheme, setTheme }) => {
   const [open, setOpen] = useState(false);
 
   const handleHamburger = () => {
@@ -16,6 +16,7 @@ const Nav = () => {
     <header className="padding-x py-8 z-10 fixed bg-white w-full">
       {/* <header className="padding-x py-8 z-10 absolute w-full"> */}
       <nav className="flex justify-between items-center max-container">
+        
         <a href="/">
           <img src={headerLogo} alt="Logo" width={130} height={29} />
         </a>
@@ -37,7 +38,8 @@ const Nav = () => {
             </a>
           </li>
           <li>
-            <Link to="/products"
+            <Link
+              to="/products"
               className="font-montserrat leading-normal text-lg text-slate-gray"
             >
               Products
@@ -52,6 +54,12 @@ const Nav = () => {
             </a>
           </li>
         </ul>
+        <button
+          className="p-2 bg-gray-200 dark:bg-gray-700 text-gray-900 dark:text-gray-100 rounded"
+          onClick={() => setTheme(colorTheme)}
+        >
+          Toggle {colorTheme === "light" ? "Dark" : "Light"} Mode
+        </button>
         {/* Hamburger Icon  */}
         <div>
           {/* <div className="hidden max-lag:block"> */}
