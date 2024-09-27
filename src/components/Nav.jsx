@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { headerLogo } from "../assets/images";
 // import { navLinks } from "../constants";
 import { Link } from "react-router-dom";
+import { MoonIcon, SunIcon } from "@heroicons/react/16/solid";
 
 const Nav = ({ colorTheme, setTheme }) => {
   const [open, setOpen] = useState(false);
@@ -58,7 +59,7 @@ const Nav = ({ colorTheme, setTheme }) => {
           className="p-2 bg-gray-200 dark:bg-gray-700 text-gray-900 dark:text-gray-100 rounded"
           onClick={() => setTheme(colorTheme)}
         >
-          Toggle {colorTheme === "light" ? "Dark" : "Light"} Mode
+          Toggle {colorTheme === "light" ? <SunIcon className="h-6 w-6 text-yellow-500" /> : <MoonIcon className="h-6 w-6 text-green-500" />} Mode
         </button>
         {/* Hamburger Icon  */}
         <div>
