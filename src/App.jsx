@@ -11,7 +11,7 @@ const App = () => {
   return (
     <Router>
       <main className="relative min-h-screen bg-white dark:bg-gray-900 text-black dark:text-white">
-        <Nav  />
+        <Nav colorTheme={colorTheme} setTheme={setTheme} />
         
         <Routes>
           <Route path="/" element={<Homes />} />
