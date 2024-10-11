@@ -14,7 +14,7 @@ const Nav = ({ colorTheme, setTheme }) => {
     setOpen(false);
   };
   return (
-    <header className="padding-x py-8 z-10 fixed bg-white dark:bg-slate-800 dark:text-white-400 w-full">
+    <header className="padding-x py-8 z-10 fixed bg-white dark:bg-slate-800 w-full">
       {/* <header className="padding-x py-8 z-10 absolute w-full"> */}
       <nav className="flex justify-between items-center max-container">
         
