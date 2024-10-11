@@ -18,11 +18,11 @@ const Hero = () => {
       className="w-full flex flex-col xl:flex-row justify-center min-h-screen max-container gap-10"
     >
       <div className="relative xl:w-2/5 flex flex-col justify-center items-start w-full max-xl:padding-x pt-28">
-        <p className="text-xl font-montserrat text-coral-red">
+        <p className="text-4xl font-montserrat text-coral-red">
           Our Exquisite Collections
         </p>
         <h1 className="mt-10 font-palanquin text-4xl md:text-8xl max-sm:text-[92px] max-sm:leading-[122px] font-bold">
-          <span className="xl:bg-white dark:bg-slate-600 xl:whitespace-nowrap z-10 pr-10 relative">
+          <span className="xl:bg-white dark:bg-slate-600 xl:whitespace-nowrap z-10 pr-10 relative p-2 ">
             The New Arrival
           </span>
           <br />
