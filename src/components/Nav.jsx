@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { headerLogo } from "../assets/images";
 import { Link } from "react-router-dom";
 import { MoonIcon, SunIcon } from "@heroicons/react/16/solid";
+import { FaCaretDown } from "react-icons/fa";
 
 const Nav = ({ colorTheme, setTheme }) => {
   const [open, setOpen] = useState(false);
@@ -37,9 +38,12 @@ const Nav = ({ colorTheme, setTheme }) => {
           <li>
             <Link
               to="/products"
-              className="font-montserrat leading-normal text-lg text-slate-gray"
+              className="font-montserrat leading-normal text-lg text-slate-gray flex items-center"
             >
               Products
+              <span>
+                <FaCaretDown />
+              </span>
             </Link>
           </li>
           <li>
