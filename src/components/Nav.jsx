@@ -78,7 +78,7 @@ const Nav = ({ colorTheme, setTheme }) => {
       {open ? (
         <div className="relative">
           <ul className="flex flex-col my-10 justify-center items-center space-y-6 font-bold bg-red-100 w-full z-50 absolute">
-            {navLinks.map((item) => (
+            {/* {navLinks.map((item) => (
               <li key={item.label}>
                 <a
                   href={item.href}
@@ -88,7 +88,7 @@ const Nav = ({ colorTheme, setTheme }) => {
                   {item.label}
                 </a>
               </li>
-            ))}
+            ))} */}
           </ul>
         </div>
       ) : (
