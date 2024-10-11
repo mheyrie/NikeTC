@@ -11,7 +11,7 @@ const Nav = ({ colorTheme, setTheme }) => {
   };
 
   return (
-    <header className="padding-x py-8 z-10 bg-white dark:bg-slate-800 w-full">
+    <header className="padding-x py-8 z-10 fixed bg-white dark:bg-slate-800 w-full">
       <nav className="flex justify-between items-center max-container">
         <a href="/">
           <img src={headerLogo} alt="Logo" width={130} height={29} />
