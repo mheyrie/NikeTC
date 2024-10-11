@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { headerLogo } from "../assets/images";
-// import { navLinks } from "../constants";
 import { Link } from "react-router-dom";
 import { MoonIcon, SunIcon } from "@heroicons/react/16/solid";
 
@@ -10,17 +9,14 @@ const Nav = ({ colorTheme, setTheme }) => {
   const handleHamburger = () => {
     setOpen((prev) => !prev);
   };
-  const handleNavLinkClick = () => {
-    setOpen(false);
-  };
+
   return (
-    <header className="padding-x py-8 z-10 fixed bg-white dark:bg-slate-800 w-full">
-      {/* <header className="padding-x py-8 z-10 absolute w-full"> */}
+    <header className="padding-x py-8 z-10 bg-white dark:bg-slate-800 w-full">
       <nav className="flex justify-between items-center max-container">
-        
         <a href="/">
           <img src={headerLogo} alt="Logo" width={130} height={29} />
         </a>
+        {/* Main Navigation */}
         <ul className="flex-1 flex justify-center item-center gap-16 max-lg:hidden">
           <li>
             <a
@@ -55,19 +51,26 @@ const Nav = ({ colorTheme, setTheme }) => {
             </a>
           </li>
         </ul>
+        {/* Theme Toggle */}
         <button
           className="p-2 bg-gray-200 dark:bg-gray-700 text-gray-900 dark:text-gray-100 rounded"
           onClick={() => setTheme(colorTheme)}
         >
-         {colorTheme === "light" ? <SunIcon className="h-6 w-6 text-yellow-500" /> : <MoonIcon className="h-6 w-6 text-gray-500" />}
+          {colorTheme === "light" ? (
+            <SunIcon className="h-6 w-6 text-yellow-500" />
+          ) : (
+            <MoonIcon className="h-6 w-6 text-gray-500" />
+          )}
         </button>
-        {/* Hamburger Icon  */}
+        {/* Hamburger Icon for Small Screens */}
         <div>
-          {/* <div className="hidden max-lag:block"> */}
           <button
             id="menu-btn"
             onClick={handleHamburger}
             className={`block hamburger lg:hidden ${open ? "open" : ""}`}
+            aria-label="Toggle Menu"
+            aria-expanded={open ? "true" : "false"}
+            aria-controls="menu-list"
           >
             <span className="hamburger-top"></span>
             <span className="hamburger-middle"></span>
@@ -75,24 +78,51 @@ const Nav = ({ colorTheme, setTheme }) => {
           </button>
         </div>
       </nav>
-      {open ? (
+      {/* Mobile Navigation */}
+      {open && (
         <div className="relative">
-          <ul className="flex flex-col my-10 justify-center items-center space-y-6 font-bold bg-red-100 w-full z-50 absolute">
-            {/* {navLinks.map((item) => (
-              <li key={item.label}>
-                <a
-                  href={item.href}
-                  className="font-montserrat leading-normal text-lg text-slate-gray"
-                  onClick={handleNavLinkClick}
-                >
-                  {item.label}
-                </a>
-              </li>
-            ))} */}
+          <ul
+            id="menu-list"
+            className="flex flex-col my-10 justify-center items-center space-y-6 font-bold bg-red-100 w-full z-50 absolute"
+          >
+            <li>
+              <a
+                href="/"
+                className="font-montserrat leading-normal text-lg text-slate-gray"
+                onClick={handleHamburger}
+              >
+                Home
+              </a>
+            </li>
+            <li>
+              <a
+                href="#about-us"
+                className="font-montserrat leading-normal text-lg text-slate-gray"
+                onClick={handleHamburger}
+              >
+                About Us
+              </a>
+            </li>
+            <li>
+              <Link
+                to="/products"
+                className="font-montserrat leading-normal text-lg text-slate-gray"
+                onClick={handleHamburger}
+              >
+                Products
+              </Link>
+            </li>
+            <li>
+              <a
+                href="#contact-us"
+                className="font-montserrat leading-normal text-lg text-slate-gray"
+                onClick={handleHamburger}
+              >
+                Contact Us
+              </a>
+            </li>
           </ul>
         </div>
-      ) : (
-        ""
       )}
     </header>
   );
